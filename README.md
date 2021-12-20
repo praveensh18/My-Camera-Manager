@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# Camera manager app using ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-You’ll need to have Node >= 14 on your local development machine.\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project is about showing camera information for specific users.\
+It consists of following features.\
+- Login by fetching login api and verifying the credentials.
+- After successful login, user will see the dashboard page with all camera details.
+- User can see specific video by clicking on video link, which will call API to get the details.
+- User can logout.
+
+## Technologies and Libraries used
+
+ReactJs, Redux, HTML, CSS, javascript, lodash, axios.
+
 
 ## Available Scripts
 
+You’ll need to have Node >= 14 on your local development machine.\
 In the project directory, you can run:
 
 ### `npm start`

@@ -1,0 +1,76 @@
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: block;
+    position: relative; 
+}
+
+form .form-inner {
+    position: relative;
+    display: block;
+    background-color: #FFF;
+    padding: 45px 60px;
+    box-shadow: 5px 10px 18px #888888;
+    
+}
+
+form .form-inner h2 {
+    color: #888;
+    margin-bottom: 40px;
+    font-size: 25px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+form .form-inner .form-group {
+    /* width: 300px; */
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    color: #666666;
+    font-size: 22px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.form-group:focus-within label {
+    color: #000;
+}
+
+form.form .form-inner .form-group input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.form-group input:focus {
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right,#0066FF,#FE4880);
+    background-size: 200%;
+    background-position: 0;
+    transition: 0.4s;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.submit-button:hover {
+    background-position: 100% 0;
+}

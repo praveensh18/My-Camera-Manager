@@ -1,0 +1,75 @@
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+    width: 60%;
+}
+.detail-heading {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #503e3e;
+    overflow: auto;
+}
+
+.data h4 {
+    color: #353c4e;
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.camera-section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid #000;
+    margin-bottom: 40px;
+    box-shadow: 5px 13px 15px rgb(34 35 58);
+}
+
+.camera-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.camera-details div:nth-child(2) {
+    text-indent: 5px;
+}
+
+.play-icon {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.play-icon span {
+    text-decoration: underline;
+}
+
+.recording-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.recording-list > div {
+    margin-bottom: 30px;
+}

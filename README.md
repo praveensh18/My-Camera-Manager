@@ -3,7 +3,7 @@
 ## This Application is available here - https://my-camera-manager.vercel.app
 
 This project is about showing camera information for specific users.\
-It consists of following features.\
+It consists of following features.
 - Login by fetching login api and verifying the credentials.
 - After successful login, user will see the dashboard page with all camera details.
 - User can see specific video by clicking on video link, which will call API to get the details.

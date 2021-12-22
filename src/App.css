@@ -71,6 +71,10 @@
   font-size: 25px;
 }
 
+.features img {
+  width: 100%;
+}
+
 .features.promise {
   background-image: url(https://www.een.com/wp-content/uploads/2020/04/solutions-hero-2.jpg);
   background-repeat: no-repeat;
@@ -92,11 +96,3 @@
   line-height: 1.3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

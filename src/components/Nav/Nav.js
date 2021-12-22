@@ -43,7 +43,7 @@ class Nav extends Component {
       <div className="navbar">
         <div className="container">
           <div className="logo">
-            <h1>Logo</h1>
+            <h1>My App</h1>
           </div>
           <nav>
             <Link to={"/"} className="nav-link">

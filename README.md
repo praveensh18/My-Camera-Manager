@@ -1,6 +1,6 @@
 # Camera manager app using ReactJs
 
-## This Application is available here - https://my-camera-manager.vercel.app
+## This Application is Production ready and running here - https://my-camera-manager.vercel.app
 
 This project is about showing camera information for specific users.\
 It consists of following features.
